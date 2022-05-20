@@ -1,7 +1,31 @@
-* {
 
-    border-color: red;
-    border-width: 1px;
-    border-style:solid;
+body {
+    position: relative;
 }
+
+.affix {
+top: 20px;
+z-index: 9999 !important;
+}
+
+nav, ul {
+    white-space: nowrap;
+    padding: 0 !important;
+    padding-left: 4px !important;
+    
+}
+nav, li {
+    list-style: none;
+    
+}
+
+nav {
+    background-color: rgb(207, 207, 207);
+    border-radius: 5px;
+    height: fit-content;
+}
+.sitelink, a{
+    font-size: 22px;
+}
+
 
