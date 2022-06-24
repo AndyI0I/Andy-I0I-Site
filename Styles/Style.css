@@ -29,19 +29,19 @@ nav {
     border-radius: 5px;
     height: fit-content;
 }
-.sitelink a{
+.sitelink button{
     font-size: 22px;
     color:black !important;
     text-decoration: none;
 }
-.sitelink a:hover{
+.sitelink button:hover{
     font-size: 22px;
     color: rgba(0, 174, 255, 0.952) !important;
     text-decoration: none;
     width: 100%;
 }
 
-a[type="button"]{
+button[type="button"]{
     width: 100%;
     font-size: 22px;
     padding: 2px 0 2px 0;
