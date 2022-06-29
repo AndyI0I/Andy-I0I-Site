@@ -24,6 +24,9 @@
     <!--soon to Be nav bar at left-hand site -->
         <!-- Bitte bewusst sein, das die "nested links" nie rauspoppen werden ohne das Bootstrap javascript!-->
     <div class="row">
+      <!-- couldn't make the nav-bar a module as a seperate html document and use it with the object tag, 
+        because it would only break. links worked, but only inside the object, so if you wanted to go 
+        to home, you would only open a second home inside the object tag-->
       <nav id="menu-bar" class="col-2 sticky-top">
         <ul class="">
           
@@ -64,21 +67,9 @@
       <!-- soon to be main Page -->
       <main class="col-10" id="mainPage">
         <header class="article-header"><h2>Meine blogs</h2></header>
-        <br>
-        <div class="row">
-          <article class="page-article col">
-          <header class="article-header"><h3>asdf</h3></header>
-          <article class="page-article"><a href="blog-index/third-entry/" class="p-link"><h2>Blog 1</h2> </a></article>
-        </article>
-        <article class="page-article col">
-          <header class="article-header"><h3>asdf</h3></header>
-          <article class="page-article"><a href="" class="p-link"><h2>Blog 2</h2> </a></article>
-        </article>
-        <article class="page-article col">
-          <header class="article-header"><h3>asdf</h3></header>
-          <article class="page-article"><a href="" class="p-link"><h2>Blog 3</h2> </a></article>
-        </article>
-        </div>
+        <br><br>
+        <object data="blog-index/index.html" type="" id="blog-obj"></object>
+        
         </main>
      
     </div>

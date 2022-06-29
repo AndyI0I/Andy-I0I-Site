@@ -123,3 +123,16 @@ footer{
 .article-header{
     border-bottom: #000 1px solid;
 }
+
+#blog-obj {
+    width: 102%;
+    height: 700px;
+}
+
+#inside-blog-obj {
+    width: 100%;
+}
+
+.center-text {
+    text-align: center;
+}
